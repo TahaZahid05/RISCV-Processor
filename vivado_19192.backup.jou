@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Apr 14 21:59:13 2025
+# Process ID: 19192
+# Current directory: D:/Vivado Projects/RISCV Processor Task 3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22532 D:\Vivado Projects\RISCV Processor Task 3\project_1.xpr
+# Log file: D:/Vivado Projects/RISCV Processor Task 3/vivado.log
+# Journal file: D:/Vivado Projects/RISCV Processor Task 3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Vivado Projects/RISCV Processor Task 3/project_1.xpr}
+update_compile_order -fileset sources_1
