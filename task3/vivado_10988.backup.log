@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Apr 13 23:14:08 2025
+# Process ID: 10988
+# Current directory: C:/Users/Ayaan/OneDrive - Habib University/Desktop/HU Semester 4/CA - Waseem Hassaan/RISCV Processor 1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3224 C:\Users\Ayaan\OneDrive - Habib University\Desktop\HU Semester 4\CA - Waseem Hassaan\RISCV Processor 1\project_1.xpr
+# Log file: C:/Users/Ayaan/OneDrive - Habib University/Desktop/HU Semester 4/CA - Waseem Hassaan/RISCV Processor 1/vivado.log
+# Journal file: C:/Users/Ayaan/OneDrive - Habib University/Desktop/HU Semester 4/CA - Waseem Hassaan/RISCV Processor 1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Ayaan/OneDrive - Habib University/Desktop/HU Semester 4/CA - Waseem Hassaan/RISCV Processor 1/project_1.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Ayaan/OneDrive - Habib University/Desktop/HU Semester 4/CA - Waseem Hassaan/RISCV Processor 1'
+INFO: [Project 1-313] Project file moved from 'C:/Users/ddddd/OneDrive/Desktop/Semester 4/CA/RISCV Processor' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:12 . Memory (MB): peak = 1015.449 ; gain = 0.000
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Ayaan/OneDrive - Habib University/Desktop/HU Semester 4/CA - Waseem Hassaan/RISCV Processor 1/project_1.srcs/sources_1/new/task3.v} w ]
+add_files {{C:/Users/Ayaan/OneDrive - Habib University/Desktop/HU Semester 4/CA - Waseem Hassaan/RISCV Processor 1/project_1.srcs/sources_1/new/task3.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Ayaan/OneDrive - Habib University/Desktop/HU Semester 4/CA - Waseem Hassaan/RISCV Processor 1/project_1.srcs/sources_1/new/Forwarding_Unit.v} w ]
+add_files {{C:/Users/Ayaan/OneDrive - Habib University/Desktop/HU Semester 4/CA - Waseem Hassaan/RISCV Processor 1/project_1.srcs/sources_1/new/Forwarding_Unit.v}}
+close [ open {C:/Users/Ayaan/OneDrive - Habib University/Desktop/HU Semester 4/CA - Waseem Hassaan/RISCV Processor 1/project_1.srcs/sources_1/new/Hazard_Detection_Unit.v} w ]
+add_files {{C:/Users/Ayaan/OneDrive - Habib University/Desktop/HU Semester 4/CA - Waseem Hassaan/RISCV Processor 1/project_1.srcs/sources_1/new/Hazard_Detection_Unit.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Ayaan/OneDrive - Habib University/Desktop/HU Semester 4/CA - Waseem Hassaan/RISCV Processor 1/project_1.srcs/sources_1/new/IF_ID_2.v} w ]
+add_files {{C:/Users/Ayaan/OneDrive - Habib University/Desktop/HU Semester 4/CA - Waseem Hassaan/RISCV Processor 1/project_1.srcs/sources_1/new/IF_ID_2.v}}
+close [ open {C:/Users/Ayaan/OneDrive - Habib University/Desktop/HU Semester 4/CA - Waseem Hassaan/RISCV Processor 1/project_1.srcs/sources_1/new/PC_2.v} w ]
+add_files {{C:/Users/Ayaan/OneDrive - Habib University/Desktop/HU Semester 4/CA - Waseem Hassaan/RISCV Processor 1/project_1.srcs/sources_1/new/PC_2.v}}
+close [ open {C:/Users/Ayaan/OneDrive - Habib University/Desktop/HU Semester 4/CA - Waseem Hassaan/RISCV Processor 1/project_1.srcs/sources_1/new/ID_EX_2.v} w ]
+add_files {{C:/Users/Ayaan/OneDrive - Habib University/Desktop/HU Semester 4/CA - Waseem Hassaan/RISCV Processor 1/project_1.srcs/sources_1/new/ID_EX_2.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 13 23:28:50 2025...

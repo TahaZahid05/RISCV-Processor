@@ -1,0 +1,24 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.sim/sim_1/behav/xsim/glbl.v,1745068901,verilog,,,,glbl,,,,,,,,
+C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sim_1/new/task3_tb.v,1745084128,verilog,,,,task3_tb,,,,,,,,
+C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/ALU_64_bit.v,1745069002,verilog,,C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/ALU_Control.v,,ALU_64_bit,,,,,,,,
+C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/ALU_Control.v,1745068903,verilog,,C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/Control_Unit.v,,ALU_Control,,,,,,,,
+C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/Control_Unit.v,1745069023,verilog,,C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/Data_Memory.v,,Control_Unit,,,,,,,,
+C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/Data_Memory.v,1745068903,verilog,,C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/EX_MEM.v,,Data_Memory,,,,,,,,
+C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/EX_MEM.v,1745084333,verilog,,C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/Forwarding_Unit.v,,EX_MEM,,,,,,,,
+C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/Forwarding_Unit.v,1745068903,verilog,,C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/Hazard_Detection_Unit.v,,Forwarding_Unit,,,,,,,,
+C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/Hazard_Detection_Unit.v,1745068903,verilog,,C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/ID_EX_2.v,,Hazard_Detection_Unit,,,,,,,,
+C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/ID_EX_2.v,1745077810,verilog,,C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/IF_ID_2.v,,ID_EX_2,,,,,,,,
+C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/IF_ID_2.v,1745076261,verilog,,C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/IM_2.v,,IF_ID_2,,,,,,,,
+C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/IM_2.v,1745084279,verilog,,C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/MEM_WB.v,,IM_2,,,,,,,,
+C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/MEM_WB.v,1745068903,verilog,,C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/PC_2.v,,MEM_WB,,,,,,,,
+C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/PC_2.v,1745068903,verilog,,C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/RegisterFile.v,,PC_2,,,,,,,,
+C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/RegisterFile.v,1745077045,verilog,,C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/adder.v,,registerFile,,,,,,,,
+C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/adder.v,1745084264,verilog,,C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/imm_data_gen.v,,adder,,,,,,,,
+C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/imm_data_gen.v,1745068903,verilog,,C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/inst_parser.v,,imm_dat_gen,,,,,,,,
+C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/inst_parser.v,1745068903,verilog,,C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/mux_2x1.v,,inst_parser,,,,,,,,
+C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/mux_2x1.v,1745068903,verilog,,C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/task3.v,,mux_2x1,,,,,,,,
+C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/task3.v,1745084168,verilog,,C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sim_1/new/task3_tb.v,,task_3,,,,,,,,

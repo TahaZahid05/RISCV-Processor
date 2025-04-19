@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="task3_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="task3_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="286700fs"></ZoomStartTime>
+      <ZoomEndTime time="312301fs"></ZoomEndTime>
+      <Cursor1Time time="322300fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="244"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="80" />
+   <wvobject fp_name="/task3_tb/a1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/PC_to_IM" type="array">
+      <obj_property name="ElementShortName">PC_to_IM[63:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_to_IM[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/IM_to_IFID" type="array">
+      <obj_property name="ElementShortName">IM_to_IFID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IM_to_IFID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/IFID_PC_addr_store" type="array">
+      <obj_property name="ElementShortName">IFID_PC_addr_store[63:0]</obj_property>
+      <obj_property name="ObjectShortName">IFID_PC_addr_store[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/IFID_to_inst_parse" type="array">
+      <obj_property name="ElementShortName">IFID_to_inst_parse[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IFID_to_inst_parse[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/opcode_store" type="array">
+      <obj_property name="ElementShortName">opcode_store[6:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode_store[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/func3" type="array">
+      <obj_property name="ElementShortName">func3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">func3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/func7" type="array">
+      <obj_property name="ElementShortName">func7[6:0]</obj_property>
+      <obj_property name="ObjectShortName">func7[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/IDEX_func_store" type="array">
+      <obj_property name="ElementShortName">IDEX_func_store[3:0]</obj_property>
+      <obj_property name="ObjectShortName">IDEX_func_store[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/IDEX_rs1_store" type="array">
+      <obj_property name="ElementShortName">IDEX_rs1_store[4:0]</obj_property>
+      <obj_property name="ObjectShortName">IDEX_rs1_store[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/IDEX_rs2_store" type="array">
+      <obj_property name="ElementShortName">IDEX_rs2_store[4:0]</obj_property>
+      <obj_property name="ObjectShortName">IDEX_rs2_store[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/IDEX_rd_store" type="array">
+      <obj_property name="ElementShortName">IDEX_rd_store[4:0]</obj_property>
+      <obj_property name="ObjectShortName">IDEX_rd_store[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/IDEX_Branch_store" type="logic">
+      <obj_property name="ElementShortName">IDEX_Branch_store</obj_property>
+      <obj_property name="ObjectShortName">IDEX_Branch_store</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/ReadData1" type="array">
+      <obj_property name="ElementShortName">ReadData1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/ReadData2" type="array">
+      <obj_property name="ElementShortName">ReadData2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/immediate" type="array">
+      <obj_property name="ElementShortName">immediate[63:0]</obj_property>
+      <obj_property name="ObjectShortName">immediate[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/IDEX_PC_addr_store" type="array">
+      <obj_property name="ElementShortName">IDEX_PC_addr_store[63:0]</obj_property>
+      <obj_property name="ObjectShortName">IDEX_PC_addr_store[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/IDEX_ReadData1_store" type="array">
+      <obj_property name="ElementShortName">IDEX_ReadData1_store[63:0]</obj_property>
+      <obj_property name="ObjectShortName">IDEX_ReadData1_store[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/IDEX_ReadData2_store" type="array">
+      <obj_property name="ElementShortName">IDEX_ReadData2_store[63:0]</obj_property>
+      <obj_property name="ObjectShortName">IDEX_ReadData2_store[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/IDEX_imm_data_store" type="array">
+      <obj_property name="ElementShortName">IDEX_imm_data_store[63:0]</obj_property>
+      <obj_property name="ObjectShortName">IDEX_imm_data_store[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/EXMEM_ALU_result_store" type="array">
+      <obj_property name="ElementShortName">EXMEM_ALU_result_store[63:0]</obj_property>
+      <obj_property name="ObjectShortName">EXMEM_ALU_result_store[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/EXMEM_WriteData_store" type="array">
+      <obj_property name="ElementShortName">EXMEM_WriteData_store[63:0]</obj_property>
+      <obj_property name="ObjectShortName">EXMEM_WriteData_store[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/MEMWB_Read_Data_store" type="array">
+      <obj_property name="ElementShortName">MEMWB_Read_Data_store[63:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMWB_Read_Data_store[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/MEMWB_ALU_result_store" type="array">
+      <obj_property name="ElementShortName">MEMWB_ALU_result_store[63:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMWB_ALU_result_store[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/mux_to_Writedata" type="array">
+      <obj_property name="ElementShortName">mux_to_Writedata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_to_Writedata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/forwardA" type="array">
+      <obj_property name="ElementShortName">forwardA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forwardA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/forwardB" type="array">
+      <obj_property name="ElementShortName">forwardB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forwardB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/stall_pc" type="logic">
+      <obj_property name="ElementShortName">stall_pc</obj_property>
+      <obj_property name="ObjectShortName">stall_pc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/stall_ifid" type="logic">
+      <obj_property name="ElementShortName">stall_ifid</obj_property>
+      <obj_property name="ObjectShortName">stall_ifid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/flush_idex" type="logic">
+      <obj_property name="ElementShortName">flush_idex</obj_property>
+      <obj_property name="ObjectShortName">flush_idex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/flush_ifid" type="logic">
+      <obj_property name="ElementShortName">flush_ifid</obj_property>
+      <obj_property name="ObjectShortName">flush_ifid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/flush_idex_comb" type="logic">
+      <obj_property name="ElementShortName">flush_idex_comb</obj_property>
+      <obj_property name="ObjectShortName">flush_idex_comb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/Branch_store" type="logic">
+      <obj_property name="ElementShortName">Branch_store</obj_property>
+      <obj_property name="ObjectShortName">Branch_store</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/MemRead_store" type="logic">
+      <obj_property name="ElementShortName">MemRead_store</obj_property>
+      <obj_property name="ObjectShortName">MemRead_store</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/MemtoReg_store" type="logic">
+      <obj_property name="ElementShortName">MemtoReg_store</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg_store</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/MemWrite_store" type="logic">
+      <obj_property name="ElementShortName">MemWrite_store</obj_property>
+      <obj_property name="ObjectShortName">MemWrite_store</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/ALUSrc_store" type="logic">
+      <obj_property name="ElementShortName">ALUSrc_store</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc_store</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/RegWrite_store" type="logic">
+      <obj_property name="ElementShortName">RegWrite_store</obj_property>
+      <obj_property name="ObjectShortName">RegWrite_store</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/ALUOp_store" type="array">
+      <obj_property name="ElementShortName">ALUOp_store[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp_store[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/ALU_Operation" type="array">
+      <obj_property name="ElementShortName">ALU_Operation[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_Operation[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/IDEX_ALUSrc_store" type="logic">
+      <obj_property name="ElementShortName">IDEX_ALUSrc_store</obj_property>
+      <obj_property name="ObjectShortName">IDEX_ALUSrc_store</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/IDEX_RegWrite_store" type="logic">
+      <obj_property name="ElementShortName">IDEX_RegWrite_store</obj_property>
+      <obj_property name="ObjectShortName">IDEX_RegWrite_store</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/IDEX_MemtoReg_store" type="logic">
+      <obj_property name="ElementShortName">IDEX_MemtoReg_store</obj_property>
+      <obj_property name="ObjectShortName">IDEX_MemtoReg_store</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/IDEX_ALUOp_store" type="array">
+      <obj_property name="ElementShortName">IDEX_ALUOp_store[1:0]</obj_property>
+      <obj_property name="ObjectShortName">IDEX_ALUOp_store[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/EXMEM_RegWrite_store" type="logic">
+      <obj_property name="ElementShortName">EXMEM_RegWrite_store</obj_property>
+      <obj_property name="ObjectShortName">EXMEM_RegWrite_store</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/EXMEM_MemtoReg_store" type="logic">
+      <obj_property name="ElementShortName">EXMEM_MemtoReg_store</obj_property>
+      <obj_property name="ObjectShortName">EXMEM_MemtoReg_store</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/MEMWB_RegWrite_store" type="logic">
+      <obj_property name="ElementShortName">MEMWB_RegWrite_store</obj_property>
+      <obj_property name="ObjectShortName">MEMWB_RegWrite_store</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/MEMWB_MemtoReg_store" type="logic">
+      <obj_property name="ElementShortName">MEMWB_MemtoReg_store</obj_property>
+      <obj_property name="ObjectShortName">MEMWB_MemtoReg_store</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/MEMWB_rd_out" type="array">
+      <obj_property name="ElementShortName">MEMWB_rd_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMWB_rd_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/ALU_Cout" type="logic">
+      <obj_property name="ElementShortName">ALU_Cout</obj_property>
+      <obj_property name="ObjectShortName">ALU_Cout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/ALU_Zero" type="logic">
+      <obj_property name="ElementShortName">ALU_Zero</obj_property>
+      <obj_property name="ObjectShortName">ALU_Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/ALU_Less" type="logic">
+      <obj_property name="ElementShortName">ALU_Less</obj_property>
+      <obj_property name="ObjectShortName">ALU_Less</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/fixed_4" type="array">
+      <obj_property name="ElementShortName">fixed_4[63:0]</obj_property>
+      <obj_property name="ObjectShortName">fixed_4[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/PC_final" type="array">
+      <obj_property name="ElementShortName">PC_final[63:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_final[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/PC_plus_4_to_mux" type="array">
+      <obj_property name="ElementShortName">PC_plus_4_to_mux[63:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_plus_4_to_mux[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/EXMEM_PC_with_immediate_store" type="array">
+      <obj_property name="ElementShortName">EXMEM_PC_with_immediate_store[63:0]</obj_property>
+      <obj_property name="ObjectShortName">EXMEM_PC_with_immediate_store[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/EXMEM_func_store" type="array">
+      <obj_property name="ElementShortName">EXMEM_func_store[3:0]</obj_property>
+      <obj_property name="ObjectShortName">EXMEM_func_store[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/EXMEM_Less_store" type="logic">
+      <obj_property name="ElementShortName">EXMEM_Less_store</obj_property>
+      <obj_property name="ObjectShortName">EXMEM_Less_store</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/EXMEM_Zero_store" type="logic">
+      <obj_property name="ElementShortName">EXMEM_Zero_store</obj_property>
+      <obj_property name="ObjectShortName">EXMEM_Zero_store</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/EXMEM_Branch_store" type="logic">
+      <obj_property name="ElementShortName">EXMEM_Branch_store</obj_property>
+      <obj_property name="ObjectShortName">EXMEM_Branch_store</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/func" type="array">
+      <obj_property name="ElementShortName">func[3:0]</obj_property>
+      <obj_property name="ObjectShortName">func[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/alu_mux_out" type="array">
+      <obj_property name="ElementShortName">alu_mux_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_mux_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/alu_result_out" type="array">
+      <obj_property name="ElementShortName">alu_result_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/EXMEM_rd_out" type="array">
+      <obj_property name="ElementShortName">EXMEM_rd_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EXMEM_rd_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/alu_input1" type="array">
+      <obj_property name="ElementShortName">alu_input1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_input1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/alu_input2" type="array">
+      <obj_property name="ElementShortName">alu_input2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_input2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/pc_final_out" type="array">
+      <obj_property name="ElementShortName">pc_final_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_final_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/signal" type="logic">
+      <obj_property name="ElementShortName">signal</obj_property>
+      <obj_property name="ObjectShortName">signal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/branch_taken" type="logic">
+      <obj_property name="ElementShortName">branch_taken</obj_property>
+      <obj_property name="ObjectShortName">branch_taken</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/DM_Read_Data_out" type="array">
+      <obj_property name="ElementShortName">DM_Read_Data_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">DM_Read_Data_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/IDEX_MemRead_store" type="logic">
+      <obj_property name="ElementShortName">IDEX_MemRead_store</obj_property>
+      <obj_property name="ObjectShortName">IDEX_MemRead_store</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/IDEX_MemWrite_store" type="logic">
+      <obj_property name="ElementShortName">IDEX_MemWrite_store</obj_property>
+      <obj_property name="ObjectShortName">IDEX_MemWrite_store</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/EXMEM_MemWrite_store" type="logic">
+      <obj_property name="ElementShortName">EXMEM_MemWrite_store</obj_property>
+      <obj_property name="ObjectShortName">EXMEM_MemWrite_store</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/EXMEM_MemRead_store" type="logic">
+      <obj_property name="ElementShortName">EXMEM_MemRead_store</obj_property>
+      <obj_property name="ObjectShortName">EXMEM_MemRead_store</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/rf1/Registers" type="array">
+      <obj_property name="ElementShortName">Registers[31:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">Registers[31:0][63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/Datamem/DataMemory" type="array">
+      <obj_property name="ElementShortName">DataMemory[500:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">DataMemory[500:0][7:0]</obj_property>
+   </wvobject>
+</wave_config>

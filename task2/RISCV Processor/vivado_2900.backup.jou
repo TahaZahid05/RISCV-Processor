@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Apr 19 14:24:39 2025
+# Process ID: 2900
+# Current directory: C:/Users/ddddd/OneDrive/Desktop/task2/RISCV Processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16300 C:\Users\ddddd\OneDrive\Desktop\task2\RISCV Processor\project_1.xpr
+# Log file: C:/Users/ddddd/OneDrive/Desktop/task2/RISCV Processor/vivado.log
+# Journal file: C:/Users/ddddd/OneDrive/Desktop/task2/RISCV Processor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ddddd/OneDrive/Desktop/task2/RISCV Processor/project_1.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/ddddd/OneDrive/Desktop/task2/RISCV Processor/task1_tb_behav.wcfg}
+source task2_tb.tcl
+close_sim
