@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1745071149">
-  <File Type="OPT-HWDEF" Name="task1.hwdef"/>
-  <File Type="ROUTE-BUS-SKEW" Name="task1_bus_skew_routed.rpt"/>
-  <File Type="PA-DCP" Name="task1.dcp"/>
+<GenRun Id="impl_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1745139912">
   <File Type="BITSTR-BMM" Name="task1_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="task1_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="task1_timing_summary_init.rpt"/>
@@ -13,6 +10,7 @@
   <File Type="ROUTE-PWR-SUM" Name="task1_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="task1_reports.tcl"/>
   <File Type="OPT-DRC" Name="task1_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="task1.hwdef"/>
   <File Type="PWROPT-DCP" Name="task1_pwropt.dcp"/>
   <File Type="PWROPT-DRC" Name="task1_drc_pwropted.rpt"/>
   <File Type="PWROPT-TIMING" Name="task1_timing_summary_pwropted.rpt"/>
@@ -50,6 +48,7 @@
   <File Type="ROUTE-TIMING-RPX" Name="task1_timing_summary_routed.rpx"/>
   <File Type="ROUTE-SIMILARITY" Name="task1_incremental_reuse_routed.rpt"/>
   <File Type="ROUTE-CLK" Name="task1_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="task1_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="task1_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="task1_bus_skew_routed.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="task1_postroute_physopt.dcp"/>
@@ -176,7 +175,14 @@
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/task1.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
     <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/task1.xdc"/>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>

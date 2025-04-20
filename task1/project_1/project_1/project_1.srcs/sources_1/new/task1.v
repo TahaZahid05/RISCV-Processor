@@ -2,7 +2,8 @@
 
 module task1(
     input clk,
-    input reset
+    input reset,
+    output [63:0] debug_write
     );
     //PC Counter
     wire [63:0] PC_In;
@@ -96,6 +97,8 @@ module task1(
     mux_2x1 m1(Result,Read_Data,MemtoReg,final_mux_data_out);
     
     assign writeData = final_mux_data_out;
+    
+    assign debug_write = writeData;
     
     
 endmodule

@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.runs/impl_1/task1.tcl"
+  variable script "C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.runs/impl_1/task1.tcl"
   variable category "vivado_impl"
 }
 
@@ -122,12 +122,28 @@ set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
   set_param chipscope.maxJobs 2
-  reset_param project.defaultXPMLibraries 
-  open_checkpoint {C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.runs/impl_1/task1.dcp}
-  set_property webtalk.parent_dir {C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.cache/wt} [current_project]
-  set_property parent.project_path {C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.xpr} [current_project]
-  set_property ip_output_repo {{C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.cache/ip}} [current_project]
+OPTRACE "create in-memory project" START { }
+  create_project -in_memory -part xc7k70tfbv676-1
+  set_property design_mode GateLvl [current_fileset]
+  set_param project.singleFileAddWarning.threshold 0
+OPTRACE "create in-memory project" END { }
+OPTRACE "set parameters" START { }
+  set_property webtalk.parent_dir C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.cache/wt [current_project]
+  set_property parent.project_path C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.xpr [current_project]
+  set_property ip_output_repo C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
+OPTRACE "set parameters" END { }
+OPTRACE "add files" START { }
+  add_files -quiet C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.runs/synth_1/task1.dcp
+OPTRACE "read constraints: implementation" START { }
+  read_xdc C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.srcs/constrs_1/new/task1.xdc
+OPTRACE "read constraints: implementation" END { }
+OPTRACE "add files" END { }
+OPTRACE "link_design" START { }
+  link_design -top task1 -part xc7k70tfbv676-1
+OPTRACE "link_design" END { }
+OPTRACE "gray box cells" START { }
+OPTRACE "gray box cells" END { }
 OPTRACE "init_design_reports" START { REPORT }
 OPTRACE "init_design_reports" END { }
 OPTRACE "init_design_write_hwdef" START { }

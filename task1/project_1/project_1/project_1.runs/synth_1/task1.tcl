@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.runs/synth_1/task1.tcl"
+  variable script "C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.runs/synth_1/task1.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,34 +70,35 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param chipscope.maxJobs 2
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7k70tfbv676-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir {C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.cache/wt} [current_project]
-set_property parent.project_path {C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.xpr} [current_project]
+set_property webtalk.parent_dir C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.cache/wt [current_project]
+set_property parent.project_path C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo {c:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.cache/ip} [current_project]
+set_property ip_output_repo c:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
-  {C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.srcs/sources_1/new/ALU_64_bit.v}
-  {C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.srcs/sources_1/new/ALU_Control.v}
-  {C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.srcs/sources_1/new/Control_Unit.v}
-  {C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.srcs/sources_1/new/Data_Memory.v}
-  {C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.srcs/sources_1/new/Instruction_Memory.v}
-  {C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.srcs/sources_1/new/Program_Counter.v}
-  {C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.srcs/sources_1/new/RegisterFile.v}
-  {C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.srcs/sources_1/new/adder.v}
-  {C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.srcs/sources_1/new/imm_data_gen.v}
-  {C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.srcs/sources_1/new/inst_parser.v}
-  {C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.srcs/sources_1/new/mux_2x1.v}
-  {C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.srcs/sources_1/new/top_control.v}
-  {C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.srcs/sources_1/new/task1.v}
+  C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.srcs/sources_1/new/ALU_64_bit.v
+  C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.srcs/sources_1/new/ALU_Control.v
+  C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.srcs/sources_1/new/Control_Unit.v
+  C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.srcs/sources_1/new/Data_Memory.v
+  C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.srcs/sources_1/new/Instruction_Memory.v
+  C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.srcs/sources_1/new/Program_Counter.v
+  C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.srcs/sources_1/new/RegisterFile.v
+  C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.srcs/sources_1/new/adder.v
+  C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.srcs/sources_1/new/imm_data_gen.v
+  C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.srcs/sources_1/new/inst_parser.v
+  C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.srcs/sources_1/new/mux_2x1.v
+  C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.srcs/sources_1/new/top_control.v
+  C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.srcs/sources_1/new/task1.v
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -108,6 +109,9 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
+read_xdc C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.srcs/constrs_1/new/task1.xdc
+set_property used_in_implementation false [get_files C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.srcs/constrs_1/new/task1.xdc]
+
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 

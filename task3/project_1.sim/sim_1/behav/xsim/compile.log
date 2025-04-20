@@ -1,42 +1,42 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/ALU_64_bit.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/ALU_64_bit.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module ALU_64_bit
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/ALU_Control.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/ALU_Control.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module ALU_Control
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Control_Unit
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Data_Memory
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/EX_MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/EX_MEM.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module EX_MEM
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/Forwarding_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/Forwarding_Unit.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Forwarding_Unit
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/Hazard_Detection_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/Hazard_Detection_Unit.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Hazard_Detection_Unit
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/ID_EX_2.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/ID_EX_2.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module ID_EX_2
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/IF_ID_2.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IF_ID_2.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module IF_ID_2
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/IM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module IM_2
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/MEM_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/MEM_WB.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module MEM_WB
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/PC_2.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/PC_2.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module PC_2
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module registerFile
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/adder.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module adder
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/imm_data_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/imm_data_gen.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module imm_dat_gen
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/inst_parser.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/inst_parser.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module inst_parser
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/mux_2x1.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/mux_2x1.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module mux_2x1
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/task3.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/task3.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module task_3
-INFO: [VRFC 10-2458] undeclared symbol IDEX_MemRead_store, assumed default net type wire [C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/task3.v:105]
-INFO: [VRFC 10-2458] undeclared symbol IDEX_MemWrite_store, assumed default net type wire [C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/task3.v:189]
-INFO: [VRFC 10-2458] undeclared symbol EXMEM_MemWrite_store, assumed default net type wire [C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/task3.v:286]
-INFO: [VRFC 10-2458] undeclared symbol EXMEM_MemRead_store, assumed default net type wire [C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sources_1/new/task3.v:287]
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/task3/project_1.srcs/sim_1/new/task3_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-2458] undeclared symbol IDEX_MemRead_store, assumed default net type wire [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/task3.v:106]
+INFO: [VRFC 10-2458] undeclared symbol IDEX_MemWrite_store, assumed default net type wire [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/task3.v:190]
+INFO: [VRFC 10-2458] undeclared symbol EXMEM_MemWrite_store, assumed default net type wire [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/task3.v:287]
+INFO: [VRFC 10-2458] undeclared symbol EXMEM_MemRead_store, assumed default net type wire [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/task3.v:288]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sim_1/new/task3_tb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module task3_tb

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1745070976">
+<GenRun Id="synth_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1745139787">
   <File Type="PA-TCL" Name="task1.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="task1_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="task1_reports.tcl"/>
@@ -109,7 +109,14 @@
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/task1.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
     <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/task1.xdc"/>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>

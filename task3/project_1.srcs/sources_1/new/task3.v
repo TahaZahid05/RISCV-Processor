@@ -2,7 +2,8 @@
 
 module task_3 (
     input clk, 
-    input reset
+    input reset,
+    output [63:0] debug_MEMWB_writeData
 );
     // Pipeline wires
     wire [63:0] PC_to_IM;
@@ -287,6 +288,8 @@ module task_3 (
         .MemRead_store(EXMEM_MemRead_store)
     );
     
+    
+    
         //PC Mux Complete
     
 //    assign signal = Branch && Zero; 
@@ -344,5 +347,7 @@ module task_3 (
         .sel(MEMWB_MemtoReg_store),
         .data_out(mux_to_Writedata)
     );
+    
+    assign debug_MEMWB_writeData = mux_to_Writedata;
 
 endmodule

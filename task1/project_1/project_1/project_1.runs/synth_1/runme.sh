@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/ddddd/OneDrive/Desktop/MONDAY SUBMIT/single/project_1/project_1/project_1.runs/synth_1'
+HD_PWD='C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task1/project_1/project_1/project_1.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
