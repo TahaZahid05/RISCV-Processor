@@ -1,7 +1,8 @@
 `timescale 1ns / 1ps
 
 module IF_ID_2 (
-    input clk,                
+    input clk,          
+    input reset,      
     input [63:0] PC_addr,     
     input [31:0] Inst,    
     input IF_ID_Write, 

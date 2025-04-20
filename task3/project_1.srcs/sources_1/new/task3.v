@@ -26,6 +26,7 @@ module task_3 (
     wire [63:0] IDEX_imm_data_store;
     wire [63:0] EXMEM_ALU_result_store;
     wire [63:0] EXMEM_WriteData_store;
+    wire [4:0] EXMEM_rd_out;
     wire [63:0] MEMWB_Read_Data_store;
     wire [63:0] MEMWB_ALU_result_store;
     wire [63:0] mux_to_Writedata;
@@ -67,7 +68,7 @@ module task_3 (
     wire [63:0] pc_final_out;
     wire signal;
     wire branch_taken = signal;
-
+    
     // Program Counter
     PC_2 pc1 (
         .clk(clk),
@@ -77,20 +78,23 @@ module task_3 (
         .PC_Out(PC_to_IM)
     );
 
-    // Fetch Stage
+    //gives PC + 4
     adder add1 (
         .a(PC_to_IM),
         .b(fixed_4),
         .out(PC_plus_4_to_mux)
     );
 
+    //Fetches instruction
     IM_2 INST_Mem (
         .Instr_Addr(PC_to_IM),
         .Instruction(IM_to_IFID)
     );
     
+    // If branch is taken, we would flush the incoming value of IF_ID
     assign flush_ifid = branch_taken;
 
+    //IFID stage starts
     IF_ID_2 fd1 (
         .clk(clk),
         .PC_addr(PC_to_IM),
@@ -101,6 +105,7 @@ module task_3 (
         .Inst_store(IFID_to_inst_parse)
     );
     
+    // If Load instruction in IDEX and IFID has the same value in rs1/rs2, then add a nop
     Hazard_Detection_Unit HDU (
         .reset(reset),
         .id_ex_memread(IDEX_MemRead_store),
@@ -112,7 +117,7 @@ module task_3 (
         .flush_id_ex(flush_idex)
     );
 
-    // Decode Stage
+    // Decoding instruction
     inst_parser Par1 (
         .inst(IFID_to_inst_parse),
         .func3(func3),
@@ -123,6 +128,7 @@ module task_3 (
         .rs2(rs2)
     );
 
+    // Signals generations
     Control_Unit Cu1 (
         .Opcode(opcode_store),
         .ALUOp(ALUOp_store),
@@ -134,6 +140,7 @@ module task_3 (
         .RegWrite(RegWrite_store)
     );
 
+    // Register File
     registerFile rf1 (
         .WriteData(^mux_to_Writedata === 1'bx ? 63'd0 : mux_to_Writedata),
         .RS1(rs1),
@@ -146,18 +153,19 @@ module task_3 (
         .ReadData2(ReadData2)
     );
 
+    // immediate generates
     imm_dat_gen ig1 (
         .inst(IFID_to_inst_parse),
         .imm(immediate)
     );
-
     
-
-
-
-    wire [3:0] func = {IFID_to_inst_parse[30], IFID_to_inst_parse[14:12]};
+    // Function that will go into ALU by using func7 and func3 bits
+    wire [3:0] func = {func7[6], func3};
+    
+    // We would flush idex if branch evaluation is taken, or hazard is detected
     assign flush_idex_comb = branch_taken | flush_idex;
 
+    //IDEX
     ID_EX_2 id_ex1 (
         .clk(clk),
         .flush(flush_idex_comb),
@@ -194,8 +202,10 @@ module task_3 (
     );
     
     // Execution Stage
+    // Decides the second input of ALU
     wire [63:0] alu_mux_out;
     
+    //Gets the operation code to decide which operation would ALU preform
     ALU_Control ALU_Control1 (
         .ALUOp(IDEX_ALUOp_store),
         .Funct(IDEX_func_store),
@@ -203,9 +213,11 @@ module task_3 (
     );
 
     
-
+    //Result of ALU
     wire [63:0] alu_result_out;
-    wire [4:0] EXMEM_rd_out;
+    
+    
+    //Forwarding unit to detect if there are any dependencies from the instructions in the pipeline
     Forwarding_Unit FU (
         .id_ex_rs1(IDEX_rs1_store),
         .id_ex_rs2(IDEX_rs2_store),
@@ -217,7 +229,7 @@ module task_3 (
         .forward_b(forwardB)
     );
     
-    
+    //Decides the final inputs in ALU by considering forwarding and immediate
     reg [63:0] alu_input1;
     reg [63:0] alu_input2;
     always @(*) begin
@@ -256,7 +268,7 @@ module task_3 (
         .Result(alu_result_out)
     );
     
-    
+    // Flushes exmem (instruction coming from id_ex) if branch evaluated to be taken
     assign flush_exmem = branch_taken;
 
        EX_MEM em1 (
@@ -290,22 +302,15 @@ module task_3 (
     
     
     
-        //PC Mux Complete
-    
-//    assign signal = Branch && Zero; 
+    //Asserts signal to be on if branch is evaluated to be taken
     assign signal = (EXMEM_func_store[2:0] == 3'b000) ? (EXMEM_Branch_store && EXMEM_Zero_store) :       // beq
                 (EXMEM_func_store[2:0] == 3'b001) ? (EXMEM_Branch_store && !EXMEM_Zero_store) :      // bne
                 (EXMEM_func_store[2:0] == 3'b100) ? (EXMEM_Branch_store && EXMEM_Less_store) :       // blt
                 (EXMEM_func_store[2:0] == 3'b101) ? (EXMEM_Branch_store && !EXMEM_Less_store) :      // bge
                 0;
-                
     
-    
-    
-    wire [63:0] branch_PC = PC_to_IM + (immediate << 1);
-    
+    //NEXT PC LOGIC: Decides between whether to keep next PC on branch immediate + 4 if branch is evaluated true or PC + 4
     mux_2x1 k1(PC_plus_4_to_mux, EXMEM_PC_with_immediate_store, signal, pc_final_out); 
-//    assign PC_final = pc_final_out; 
     
     assign PC_final = signal === 1'bX ? PC_plus_4_to_mux : pc_final_out;
     
@@ -323,6 +328,7 @@ module task_3 (
         .Read_Data(DM_Read_Data_out)
     );
 
+    //MEMWB 
         MEM_WB mem_wb1 (
         .clk(clk),
         .ReadData(DM_Read_Data_out),
@@ -339,7 +345,7 @@ module task_3 (
 
     
 
-    
+    // Selects whether to choose result from Memory or ALU
     // Writeback Stage
     mux_2x1 WB_mux (
         .a(MEMWB_ALU_result_store),
