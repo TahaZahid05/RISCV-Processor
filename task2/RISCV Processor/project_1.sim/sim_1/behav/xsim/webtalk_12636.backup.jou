@@ -2,13 +2,11 @@
 # Webtalk v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Mon Apr 21 11:04:49 2025
-# Process ID: 16724
+# Start of session at: Mon Apr 21 11:03:10 2025
+# Process ID: 12636
 # Current directory: C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task2/RISCV Processor/project_1.sim/sim_1/behav/xsim
 # Command line: wbtcv.exe -mode batch -source C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task2/RISCV Processor/project_1.sim/sim_1/behav/xsim/xsim.dir/task2_tb_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task2/RISCV Processor/project_1.sim/sim_1/behav/xsim/webtalk.log
 # Journal file: C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task2/RISCV Processor/project_1.sim/sim_1/behav/xsim\webtalk.jou
 #-----------------------------------------------------------
 source C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task2/RISCV -notrace
-couldn't read file "C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task2/RISCV": no such file or directory
-INFO: [Common 17-206] Exiting Webtalk at Mon Apr 21 11:04:49 2025...

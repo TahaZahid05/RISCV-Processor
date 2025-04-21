@@ -16,9 +16,12 @@
   <File Type="BITSTR-BMM" Name="task_3_bd.bmm"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="task_3_methodology_drc_routed.rpt"/>
   <File Type="BITSTR-MMI" Name="task_3.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="task_3_methodology_drc_routed.pb"/>
   <File Type="BITSTR-SYSDEF" Name="task_3.sysdef"/>
+  <File Type="ROUTE-DRC-RPX" Name="task_3_drc_routed.rpx"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="task_3.ltx"/>
+  <File Type="RCFI_FILE" Name="task_3.rcfi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="OPT-DRC" Name="task_3_drc_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="task_3.hwdef"/>
@@ -48,11 +51,8 @@
   <File Type="PHYSOPT-DCP" Name="task_3_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="task_3_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="task_3_postroute_physopt_bb.dcp"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="task_3_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="task_3_drc_routed.rpx"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="task_3_methodology_drc_routed.rpx"/>
   <File Type="PDI-FILE" Name="task_3.pdi"/>
-  <File Type="RCFI_FILE" Name="task_3.rcfi"/>
   <File Type="CFI_FILE" Name="task_3.cfi"/>
   <File Type="RNPI_FILE" Name="task_3.rnpi"/>
   <File Type="NPI_FILE" Name="task_3.npi"/>

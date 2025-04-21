@@ -30,12 +30,12 @@ module Data_Memory(
 );
 
 // 64-byte memory array (8-bit wide, 64 elements)
-reg [7:0] DataMemory[500:0];
+reg [7:0] DataMemory[1023:0];
 
 // Initialize memory with values 0 to 63 during simulation start
 integer i;
 initial begin
-    for (i = 0; i < 501; i = i + 1)
+    for (i = 0; i < 1024; i = i + 1)
         DataMemory[i] = 8'd0;
 end
 
