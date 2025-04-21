@@ -2,8 +2,8 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Sun Apr 20 13:54:08 2025
-# Process ID: 14272
+# Start of session at: Mon Apr 21 11:28:49 2025
+# Process ID: 5984
 # Current directory: C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.runs/synth_1
 # Command line: vivado.exe -log task_3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source task_3.tcl
 # Log file: C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.runs/synth_1/task_3.vds
@@ -17,9 +17,9 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t
 INFO: [Device 21-403] Loading part xc7k70tfbv676-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 20148
+INFO: [Synth 8-7075] Helper process launched with PID 12768
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1024.941 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1026.105 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'task_3' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/task3.v:3]
 INFO: [Synth 8-6157] synthesizing module 'PC_2' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/PC_2.v:3]
@@ -27,106 +27,106 @@ INFO: [Synth 8-6155] done synthesizing module 'PC_2' (1#1) [C:/Users/ddddd/OneDr
 INFO: [Synth 8-6157] synthesizing module 'adder' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/adder.v:3]
 INFO: [Synth 8-6155] done synthesizing module 'adder' (2#1) [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/adder.v:3]
 INFO: [Synth 8-6157] synthesizing module 'IM_2' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:3]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:94]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:95]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:96]
-WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:97]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:58]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:59]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:60]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:61]
 INFO: [Common 17-14] Message 'Synth 8-311' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 
 Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
@@ -136,19 +136,21 @@ RAM dissolved into registers
 INFO: [Synth 8-6155] done synthesizing module 'IM_2' (3#1) [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IM_2.v:3]
 INFO: [Synth 8-6157] synthesizing module 'IF_ID_2' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IF_ID_2.v:3]
 INFO: [Synth 8-6155] done synthesizing module 'IF_ID_2' (4#1) [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/IF_ID_2.v:3]
+WARNING: [Synth 8-7071] port 'reset' of module 'IF_ID_2' is unconnected for instance 'fd1' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/task3.v:98]
+WARNING: [Synth 8-7023] instance 'fd1' of module 'IF_ID_2' has 8 connections declared, but only 7 given [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/task3.v:98]
 INFO: [Synth 8-6157] synthesizing module 'Hazard_Detection_Unit' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/Hazard_Detection_Unit.v:3]
 INFO: [Synth 8-6155] done synthesizing module 'Hazard_Detection_Unit' (5#1) [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/Hazard_Detection_Unit.v:3]
-WARNING: [Synth 8-7071] port 'PC_final' of module 'Hazard_Detection_Unit' is unconnected for instance 'HDU' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/task3.v:104]
-WARNING: [Synth 8-7071] port 'EXMEM_PC_with_immediate_store' of module 'Hazard_Detection_Unit' is unconnected for instance 'HDU' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/task3.v:104]
-WARNING: [Synth 8-7071] port 'PC_plus_4_to_mux' of module 'Hazard_Detection_Unit' is unconnected for instance 'HDU' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/task3.v:104]
-WARNING: [Synth 8-7023] instance 'HDU' of module 'Hazard_Detection_Unit' has 11 connections declared, but only 8 given [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/task3.v:104]
+WARNING: [Synth 8-7071] port 'PC_final' of module 'Hazard_Detection_Unit' is unconnected for instance 'HDU' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/task3.v:109]
+WARNING: [Synth 8-7071] port 'EXMEM_PC_with_immediate_store' of module 'Hazard_Detection_Unit' is unconnected for instance 'HDU' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/task3.v:109]
+WARNING: [Synth 8-7071] port 'PC_plus_4_to_mux' of module 'Hazard_Detection_Unit' is unconnected for instance 'HDU' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/task3.v:109]
+WARNING: [Synth 8-7023] instance 'HDU' of module 'Hazard_Detection_Unit' has 11 connections declared, but only 8 given [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/task3.v:109]
 INFO: [Synth 8-6157] synthesizing module 'inst_parser' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/inst_parser.v:23]
 INFO: [Synth 8-6155] done synthesizing module 'inst_parser' (6#1) [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/inst_parser.v:23]
 INFO: [Synth 8-6157] synthesizing module 'Control_Unit' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/Control_Unit.v:3]
 INFO: [Synth 8-6155] done synthesizing module 'Control_Unit' (7#1) [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/Control_Unit.v:3]
 INFO: [Synth 8-6157] synthesizing module 'registerFile' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/RegisterFile.v:3]
 INFO: [Synth 8-6155] done synthesizing module 'registerFile' (8#1) [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/RegisterFile.v:3]
-WARNING: [Synth 8-689] width (32) of port connection 'RegWrite' does not match port width (1) of module 'registerFile' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/task3.v:142]
+WARNING: [Synth 8-689] width (32) of port connection 'RegWrite' does not match port width (1) of module 'registerFile' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/task3.v:149]
 INFO: [Synth 8-6157] synthesizing module 'imm_dat_gen' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/imm_data_gen.v:23]
 INFO: [Synth 8-6155] done synthesizing module 'imm_dat_gen' (9#1) [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/imm_data_gen.v:23]
 INFO: [Synth 8-6157] synthesizing module 'ID_EX_2' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/ID_EX_2.v:3]
@@ -174,18 +176,18 @@ INFO: [Synth 8-6157] synthesizing module 'MEM_WB' [C:/Users/ddddd/OneDrive/Deskt
 INFO: [Synth 8-6155] done synthesizing module 'MEM_WB' (17#1) [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/MEM_WB.v:22]
 INFO: [Synth 8-6155] done synthesizing module 'task_3' (18#1) [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/task3.v:3]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1033.418 ; gain = 8.477
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1152.863 ; gain = 126.758
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1033.418 ; gain = 8.477
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1152.863 ; gain = 126.758
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1033.418 ; gain = 8.477
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1152.863 ; gain = 126.758
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.226 . Memory (MB): peak = 1033.418 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.408 . Memory (MB): peak = 1152.863 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -194,26 +196,26 @@ Parsing XDC File [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processo
 Finished Parsing XDC File [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/constrs_1/new/task3try.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1137.855 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1251.820 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.168 . Memory (MB): peak = 1137.855 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.285 . Memory (MB): peak = 1251.820 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1137.855 ; gain = 112.914
+Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1251.820 ; gain = 225.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7k70tfbv676-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1137.855 ; gain = 112.914
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1251.820 ; gain = 225.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1137.855 ; gain = 112.914
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1251.820 ; gain = 225.715
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-327] inferring latch for variable 'ALUOp_reg' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/Control_Unit.v:16]
 WARNING: [Synth 8-327] inferring latch for variable 'Branch_reg' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/Control_Unit.v:17]
@@ -225,7 +227,7 @@ WARNING: [Synth 8-327] inferring latch for variable 'imm_reg' [C:/Users/ddddd/On
 WARNING: [Synth 8-327] inferring latch for variable 'Operation_reg' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/ALU_Control.v:12]
 WARNING: [Synth 8-327] inferring latch for variable 'Read_Data_reg' [C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.srcs/sources_1/new/Data_Memory.v:45]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:42 ; elapsed = 00:00:45 . Memory (MB): peak = 1137.855 ; gain = 112.914
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:38 ; elapsed = 00:01:40 . Memory (MB): peak = 1251.820 ; gain = 225.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -240,7 +242,7 @@ Detailed RTL Component Info :
 +---Registers : 
 	               64 Bit    Registers := 11    
 	               32 Bit    Registers := 1     
-	                8 Bit    Registers := 501   
+	                8 Bit    Registers := 1024  
 	                5 Bit    Registers := 5     
 	                4 Bit    Registers := 2     
 	                2 Bit    Registers := 1     
@@ -253,17 +255,17 @@ Detailed RTL Component Info :
 	   2 Input   52 Bit        Muxes := 2     
 	   4 Input   12 Bit        Muxes := 2     
 	   2 Input   12 Bit        Muxes := 2     
-	   4 Input    8 Bit        Muxes := 283   
-	   2 Input    8 Bit        Muxes := 497   
+	   2 Input    8 Bit        Muxes := 1020  
+	   4 Input    8 Bit        Muxes := 576   
 	   2 Input    4 Bit        Muxes := 2     
 	   5 Input    3 Bit        Muxes := 1     
 	   2 Input    3 Bit        Muxes := 1     
-	   4 Input    2 Bit        Muxes := 33    
+	   4 Input    2 Bit        Muxes := 65    
 	   3 Input    2 Bit        Muxes := 4     
 	   2 Input    2 Bit        Muxes := 2     
-	   2 Input    1 Bit        Muxes := 506   
-	   4 Input    1 Bit        Muxes := 125   
-	   5 Input    1 Bit        Muxes := 372   
+	   2 Input    1 Bit        Muxes := 1029  
+	   4 Input    1 Bit        Muxes := 256   
+	   5 Input    1 Bit        Muxes := 760   
 	   3 Input    1 Bit        Muxes := 4     
 	   7 Input    1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
@@ -281,8 +283,40 @@ Finished Part Resource Summary
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[32]' (LDC) to 'Read_Data_reg[33]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[33]' (LDC) to 'Read_Data_reg[34]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[34]' (LDC) to 'Read_Data_reg[35]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[35]' (LDC) to 'Read_Data_reg[36]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[36]' (LDC) to 'Read_Data_reg[37]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[37]' (LDC) to 'Read_Data_reg[38]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[38]' (LDC) to 'Read_Data_reg[39]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[39]' (LDC) to 'Read_Data_reg[40]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[40]' (LDC) to 'Read_Data_reg[41]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[41]' (LDC) to 'Read_Data_reg[42]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[42]' (LDC) to 'Read_Data_reg[43]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[43]' (LDC) to 'Read_Data_reg[44]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[44]' (LDC) to 'Read_Data_reg[45]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[45]' (LDC) to 'Read_Data_reg[46]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[46]' (LDC) to 'Read_Data_reg[47]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[47]' (LDC) to 'Read_Data_reg[48]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[48]' (LDC) to 'Read_Data_reg[49]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[49]' (LDC) to 'Read_Data_reg[50]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[50]' (LDC) to 'Read_Data_reg[51]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[51]' (LDC) to 'Read_Data_reg[52]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[52]' (LDC) to 'Read_Data_reg[53]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[53]' (LDC) to 'Read_Data_reg[54]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[54]' (LDC) to 'Read_Data_reg[55]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[55]' (LDC) to 'Read_Data_reg[56]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[56]' (LDC) to 'Read_Data_reg[57]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[57]' (LDC) to 'Read_Data_reg[58]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[58]' (LDC) to 'Read_Data_reg[59]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[59]' (LDC) to 'Read_Data_reg[60]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[60]' (LDC) to 'Read_Data_reg[61]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[61]' (LDC) to 'Read_Data_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Read_Data_reg[62]' (LDC) to 'Read_Data_reg[63]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Read_Data_reg[63] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:53 ; elapsed = 00:00:57 . Memory (MB): peak = 1137.855 ; gain = 112.914
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:16 ; elapsed = 00:02:49 . Memory (MB): peak = 1251.820 ; gain = 225.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -303,13 +337,13 @@ Finished ROM, RAM, DSP and Shift Register Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:01 ; elapsed = 00:01:05 . Memory (MB): peak = 1137.855 ; gain = 112.914
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:25 ; elapsed = 00:02:59 . Memory (MB): peak = 1251.820 ; gain = 225.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:01 ; elapsed = 00:01:05 . Memory (MB): peak = 1137.855 ; gain = 112.914
+Finished Timing Optimization : Time (s): cpu = 00:02:25 ; elapsed = 00:02:59 . Memory (MB): peak = 1251.820 ; gain = 225.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -329,7 +363,7 @@ Finished ROM, RAM, DSP and Shift Register Reporting
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:01 ; elapsed = 00:01:05 . Memory (MB): peak = 1137.855 ; gain = 112.914
+Finished Technology Mapping : Time (s): cpu = 00:02:25 ; elapsed = 00:02:59 . Memory (MB): peak = 1251.820 ; gain = 225.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -347,37 +381,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:06 ; elapsed = 00:01:10 . Memory (MB): peak = 1137.855 ; gain = 112.914
+Finished IO Insertion : Time (s): cpu = 00:02:29 ; elapsed = 00:03:03 . Memory (MB): peak = 1251.820 ; gain = 225.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:06 ; elapsed = 00:01:10 . Memory (MB): peak = 1137.855 ; gain = 112.914
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:29 ; elapsed = 00:03:03 . Memory (MB): peak = 1251.820 ; gain = 225.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:06 ; elapsed = 00:01:10 . Memory (MB): peak = 1137.855 ; gain = 112.914
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:29 ; elapsed = 00:03:03 . Memory (MB): peak = 1251.820 ; gain = 225.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:06 ; elapsed = 00:01:10 . Memory (MB): peak = 1137.855 ; gain = 112.914
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:29 ; elapsed = 00:03:03 . Memory (MB): peak = 1251.820 ; gain = 225.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:06 ; elapsed = 00:01:10 . Memory (MB): peak = 1137.855 ; gain = 112.914
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:29 ; elapsed = 00:03:03 . Memory (MB): peak = 1251.820 ; gain = 225.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:06 ; elapsed = 00:01:10 . Memory (MB): peak = 1137.855 ; gain = 112.914
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:29 ; elapsed = 00:03:03 . Memory (MB): peak = 1251.820 ; gain = 225.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -402,26 +436,26 @@ Report Cell Usage:
 |7     |OBUF   |    64|
 +------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:06 ; elapsed = 00:01:10 . Memory (MB): peak = 1137.855 ; gain = 112.914
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:29 ; elapsed = 00:03:03 . Memory (MB): peak = 1251.820 ; gain = 225.715
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:51 ; elapsed = 00:01:06 . Memory (MB): peak = 1137.855 ; gain = 8.477
-Synthesis Optimization Complete : Time (s): cpu = 00:01:06 ; elapsed = 00:01:10 . Memory (MB): peak = 1137.855 ; gain = 112.914
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:10 ; elapsed = 00:02:58 . Memory (MB): peak = 1251.820 ; gain = 126.758
+Synthesis Optimization Complete : Time (s): cpu = 00:02:29 ; elapsed = 00:03:04 . Memory (MB): peak = 1251.820 ; gain = 225.715
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1137.855 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1251.820 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1137.855 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1251.820 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 2 instances were transformed.
   RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 2 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-51 Infos, 114 Warnings, 0 Critical Warnings and 0 Errors encountered.
+83 Infos, 116 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:12 ; elapsed = 00:01:18 . Memory (MB): peak = 1137.855 ; gain = 112.914
+synth_design: Time (s): cpu = 00:02:34 ; elapsed = 00:03:11 . Memory (MB): peak = 1251.820 ; gain = 225.715
 INFO: [Common 17-1381] The checkpoint 'C:/Users/ddddd/OneDrive/Desktop/RISCV_Processor/RISCV-Processor/task3/project_1.runs/synth_1/task_3.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file task_3_utilization_synth.rpt -pb task_3_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sun Apr 20 13:55:30 2025...
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 21 11:32:04 2025...

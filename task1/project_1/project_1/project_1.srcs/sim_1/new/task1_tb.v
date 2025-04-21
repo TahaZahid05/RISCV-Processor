@@ -10,11 +10,11 @@ initial
 begin
 clk = 1;
 reset = 1;
-#2 reset = 0;
+#1 reset = 0;
 end
 
 always begin 
-    #5 clk = ~clk;
+    #1 clk = ~clk;
 end 
 
 endmodule
