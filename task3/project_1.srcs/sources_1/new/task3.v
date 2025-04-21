@@ -105,17 +105,8 @@ module task_3 (
         .Inst_store(IFID_to_inst_parse)
     );
     
-    // If Load instruction in IDEX and IFID has the same value in rs1/rs2, then add a nop
-    Hazard_Detection_Unit HDU (
-        .reset(reset),
-        .id_ex_memread(IDEX_MemRead_store),
-        .id_ex_rd(IDEX_rd_store),
-        .if_id_rs1(rs1),
-        .if_id_rs2(rs2),
-        .stall_pc(stall_pc),
-        .stall_if_id(stall_ifid),
-        .flush_id_ex(flush_idex)
-    );
+    
+    
 
     // Decoding instruction
     inst_parser Par1 (
@@ -126,6 +117,24 @@ module task_3 (
         .rd(rd),
         .rs1(rs1),
         .rs2(rs2)
+    );
+    
+    wire signalOpcode;
+    assign signalOpcode = (opcode_store == 7'b0010011) || // immediate ALU (ADDI, ANDI, etc.)
+                  (opcode_store == 7'b0000011) || // loads
+                  (opcode_store == 7'b1100111) || // JALR
+                  (opcode_store == 7'b1110011);   // system (ECALL, EBREAK)
+    
+    // If Load instruction in IDEX and IFID has the same value in rs1/rs2, then add a nop
+    Hazard_Detection_Unit HDU (
+        .reset(reset),
+        .id_ex_memread(IDEX_MemRead_store),
+        .id_ex_rd(IDEX_rd_store),
+        .if_id_rs1(rs1),
+        .if_id_rs2(signalOpcode ? 5'bX : rs2),
+        .stall_pc(stall_pc),
+        .stall_if_id(stall_ifid),
+        .flush_id_ex(flush_idex)
     );
 
     // Signals generations
